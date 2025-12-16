@@ -1,0 +1,163 @@
+ body{
+        background-color:rgb(25, 25, 25);
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      .move{
+        cursor: pointer;
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+        border: 2px dashed white;
+        background-color: transparent;
+        margin-right: 10px;
+        margin-top: 30px;
+      }
+      img{
+        width: 60px;
+      }
+      .img-result{
+        width: 30px;
+      }
+      .result-card, .score-card{
+        margin-top: 50px;
+        font-size: large;
+        font-weight: bold;
+        border: solid white 2px;
+        width: 300px;
+        height: 50px;
+        text-align: center;
+        padding-top: 25px;
+        border-radius: 10px;
+      }
+      .move-card, .score-card{
+        font-size: large;
+        margin-top: 50px;
+      }
+      .reset-button{
+        font-size: 15px;
+        padding: 8px 15px;
+        margin-top: 40px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        width: 150px;
+        height: 45px;
+
+      }
+      
+      .reset-button:active{
+        background-color: rgb(255, 223, 87);
+        transform: scale(0.98);
+      }
+  
+      .wholeContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+
+
+    @media (max-width: 480px) {
+
+  h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .move {
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    margin-right: 6px;
+    margin-top: 20px;
+  }
+
+  img {
+    width: 45px;
+  }
+
+  .img-result {
+    width: 22px;
+  }
+
+  .result-card,
+  .score-card {
+    width: 90%;
+    height: auto;
+    padding: 15px 0;
+    font-size: 14px;
+  }
+
+  .reset-button {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  p {
+    font-size: 18px !important;
+  }
+
+  .move {
+    width: 105px;
+    height: 105px;
+    border-radius: 52px;
+  }
+
+  img {
+    width: 55px;
+  }
+
+  .result-card,
+  .score-card {
+    width: 280px;
+    font-size: 16px;
+  }
+
+  .reset-button {
+    width: 140px;
+    height: 42px;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  .move {
+    width: 115px;
+    height: 115px;
+  }
+
+  img {
+    width: 58px;
+  }
+}
+
+
+@media (min-width: 1025px) {
+
+  .wholeContainer {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .move {
+    width: 120px;
+    height: 120px;
+  }
+}
